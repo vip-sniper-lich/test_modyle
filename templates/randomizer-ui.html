@@ -1,0 +1,33 @@
+<div class="monster-randomizer">
+    <div class="form-group">
+        <label>Encounter Difficulty:</label>
+        <select id="encounterLevel">
+            <option value="1">Trivial (40 XP)</option>
+            <option value="2">Low (60 XP)</option>
+            <option value="3" selected>Moderate (80 XP)</option>
+            <option value="4">Severe (120 XP)</option>
+            <option value="5">Extreme (160 XP)</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label>Number of Monsters:</label>
+        <input type="number" id="monsterCount" value="1" min="1" max="10">
+    </div>
+    
+    <div class="form-group">
+        <label>Available Players:</label>
+        <select id="playerList"></select>
+        <button type="button" id="addPlayer">Add Player</button>
+    </div>
+    
+    <div class="form-group">
+        <label>Current Players:</label>
+        <select id="currentPlayers" size="4"></select>
+        <button type="button" id="removePlayer">Remove Player</button>
+    </div>
+    
+    <div class="info">
+        <p><strong>Allowed to activate:</strong> {{allowedPlayers.join(', ')}}</p>
+    </div>
+</div>

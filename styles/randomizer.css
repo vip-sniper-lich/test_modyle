@@ -1,0 +1,53 @@
+.monster-randomizer {
+    padding: 10px;
+}
+
+.monster-randomizer .form-group {
+    margin-bottom: 15px;
+}
+
+.monster-randomizer label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.monster-randomizer select,
+.monster-randomizer input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.monster-randomizer button {
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.monster-randomizer .info {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.encounter-results {
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgba(76, 175, 80, 0.1);
+}
+
+.monster-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background: white;
+}
+
+.monster-card img {
+    max-width: 100px;
+    float: left;
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "pf2e-monster-randomizer",
+    "title": "PF2E Monster Randomizer",
+    "description": "Random monster generator with encounter balancing for PF2E",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "systems": ["pf2e"],
+    "esmodules": ["scripts/main.js"],
+    "styles": ["styles/randomizer.css"],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/your-repo",
+    "manifest": "https://raw.githubusercontent.com/your-repo/main/module.json",
+    "download": "https://github.com/your-repo/releases/download/v1.0.0/module.zip",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "10"
+}
